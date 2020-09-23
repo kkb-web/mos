@@ -1,0 +1,18 @@
+{
+  "code": 0,
+  "msg": "success",
+  "data": [
+    {
+      "classId": 1,
+      "className": "第四期"
+    },
+    {
+      "classId": 2,
+      "className": "第五期"
+    },
+    {
+      "classId": 3,
+      "className": "第六期"
+    }
+  ]
+}

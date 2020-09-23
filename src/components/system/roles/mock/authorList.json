@@ -1,0 +1,66 @@
+{
+  "code": 0,
+  "msg": "success",
+  "data": [
+    {
+      "id": 1,
+      "name": "新增",
+      "url": null,
+      "icon": null,
+      "parentId": 0,
+      "sort": 0,
+      "type": 1,
+      "permission": null,
+      "subject": 0,
+      "data": 0
+    },
+    {
+      "id": 2,
+      "name": "删除",
+      "url": null,
+      "icon": null,
+      "parentId": 0,
+      "sort": 0,
+      "type": 1,
+      "permission": null,
+      "subject": 1,
+      "data": 0
+    },
+    {
+      "id": 3,
+      "name": "修改",
+      "url": null,
+      "icon": null,
+      "parentId": 0,
+      "sort": 0,
+      "type": 1,
+      "permission": null,
+      "subject": 1,
+      "data": 0
+    },
+    {
+      "id": 4,
+      "name": "查看",
+      "url": null,
+      "icon": null,
+      "parentId": 0,
+      "sort": 0,
+      "type": 1,
+      "permission": null,
+      "subject": 1,
+      "data": 0
+    },
+    {
+      "id": 5,
+      "name": "操作",
+      "url": null,
+      "icon": null,
+      "parentId": 0,
+      "sort": 0,
+      "type": 1,
+      "permission": null,
+      "subject": 1,
+      "data": 0
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "code": 0,
+  "msg": "Success",
+  "data": {
+    "records": [
+      {
+        "subject": "[web]",
+        "mobile": "131XXXX2106",
+        "sellerName": "单彤",
+        "clueId": 1,
+        "platform": "百度",
+        "confirm": "已确认",
+        "createTime": 1564383330,
+        "nickname": null,
+        "wechatId": "Ss6666667s",
+        "campaignName": "百度知道推广1",
+        "campaignCode": "h14fasgf4"
+      }
+    ],
+    "total": 2,
+    "size": 1,
+    "current": 1,
+    "ascs": null,
+    "descs": null,
+    "condition": {},
+    "searchCount": true,
+    "pages": 2
+  }
+}

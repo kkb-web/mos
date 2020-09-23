@@ -1,0 +1,38 @@
+{
+  "code": 0,
+  "msg": "success",
+  "data": {
+    "total": 3,
+    "size": 40,
+    "pages": 1,
+    "current": 1,
+    "orderByField": "createTime",
+    "records": [{
+      "id": 1,
+      "mediaId": 1,
+      "url": "https://img.kaikeba.com/course_2.png",
+      "name": "web课程",
+      "createBy": "小明",
+      "collectId": null,
+      "deleted": 1
+    }, {
+      "id": 2,
+      "mediaId": 2,
+      "url": "https://img.kaikeba.com/course_1.png",
+      "name": "web课程",
+      "createBy": "小明",
+      "collectId": 1,
+      "deleted": 1
+    }, {
+      "id": 3,
+      "mediaId": 3,
+      "url": "https://img.kaikeba.com/course_3.png",
+      "name": "java课程",
+      "createBy": "小明",
+      "collectId": 2,
+      "deleted": 0
+    }],
+    "offsetCurrent": 0,
+    "asc": false
+  }
+}

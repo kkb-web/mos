@@ -1,0 +1,59 @@
+{
+  "draw": 1,
+  "recordsTotal": 6,
+  "recordsFiltered": 6,
+  "currentPage": 1,
+  "totalData": 7,
+  "data": [
+    {
+      "id": 6,
+      "IMEI":"35 672308 092428 2",
+      "phonemodel":"iP5-金色",
+      "marketingnumber":"3",
+      "Ownedsales":"小微",
+      "createdTime": 1528966095
+    },{
+      "id": 23,
+      "IMEI":"35 672308 092428 2",
+      "phonemodel":"iP5-金色",
+      "marketingnumber":"3",
+      "Ownedsales":"小微",
+      "createdTime": 1528966095
+    },{
+      "id": 45,
+      "IMEI":"35 672308 092428 2",
+      "phonemodel":"iP5-金色",
+      "marketingnumber":"3",
+      "Ownedsales":"小微",
+      "createdTime": 1528966095
+    },{
+      "id": 67,
+      "IMEI":"35 672308 092428 2",
+      "phonemodel":"iP5-金色",
+      "marketingnumber":"3",
+      "Ownedsales":"小微",
+      "createdTime": 1528966095
+    },{
+      "id": 41,
+      "IMEI":"35 672308 092428 2",
+      "phonemodel":"iP5-金色",
+      "marketingnumber":"3",
+      "Ownedsales":"小微",
+      "createdTime": 1528966095
+    },{
+      "id": 69,
+      "IMEI":"35 672308 092428 2",
+      "phonemodel":"iP5-金色",
+      "marketingnumber":"3",
+      "Ownedsales":"小微",
+      "createdTime": 1528966095
+    },{
+      "id": 8,
+      "IMEI":"35 672308 092428 2",
+      "phonemodel":"iP5-金色",
+      "marketingnumber":"3",
+      "Ownedsales":"小微",
+      "createdTime": 1528966095
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "code": 0,
+  "msg": "success",
+  "total": 3,
+  "size": 40,
+  "current": 1,
+  "pages": 1,
+  "data": {
+    "records": [
+      {
+        "id": 1,
+        "mediaId": 11,
+        "mediaName": "小明",
+        "subjectName": "学科",
+        "qr": 1,
+        "visitors": 123,
+        "pv": 2,
+        "uv": 3,
+        "press": 4,
+        "price": 100,
+        "certificate": "付款截图",
+        "unitPrice": "单价",
+        "number": 10,
+        "createTime": "2018-10-12",
+        "title": "test",
+
+        "link": "link",
+        "chengdanliang": 100,
+        "shouru": 200
+      },
+      {
+        "id": 2,
+        "mediaId": 11,
+        "mediaName": "小明",
+        "subjectName": "学科",
+        "qr": 1,
+        "visitors": 123,
+        "pv": 2,
+        "uv": 3,
+        "press": 4,
+        "price": 100,
+        "certificate": "付款截图",
+        "unitPrice": "单价",
+        "number": 10,
+        "createTime": "2018-10-12",
+        "title": "test",
+
+        "link": "link",
+        "chengdanliang": 100,
+        "shouru": 200
+      },
+      {
+        "id": 3,
+
+        "mediaId": 11,
+        "mediaName": "小明",
+        "subjectName": "学科",
+        "qr": 1,
+        "visitors": 123,
+        "pv": 2,
+        "uv": 3,
+        "press": 4,
+        "price": 100,
+        "certificate": "付款截图",
+        "unitPrice": "单价",
+        "number": 10,
+        "createTime": "2018-10-12",
+        "title": "test",
+
+        "link": "link",
+        "chengdanliang": 100,
+        "shouru": 200
+      }
+    ]
+  }
+}

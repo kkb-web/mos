@@ -1,0 +1,34 @@
+{
+  "code": 0,
+  "msg": "success",
+  "data": [
+    {
+      "id": 1,
+      "name": "一期",
+      "price": "7980.00",
+      "createTime": 1551171659,
+      "signUp": 34
+    },
+    {
+      "id": 2,
+      "name": "二期",
+      "price": "7980.00",
+      "createTime": 1551171659,
+      "signUp": 44
+    },
+    {
+      "id": 3,
+      "name": "三期",
+      "price": "7980.00",
+      "createTime": 1551171659,
+      "signUp": 54
+    },
+    {
+      "id": 4,
+      "name": "四期",
+      "price": "7980.00",
+      "createTime": 1551171659,
+      "signUp": 64
+    }
+  ]
+}

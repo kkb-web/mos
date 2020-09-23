@@ -1,0 +1,9 @@
+{
+  "code": 0,
+  "msg": "success",
+  "data": {
+    "price": 9999,
+    "class": "001",
+    "classPrice": 8900
+  }
+}

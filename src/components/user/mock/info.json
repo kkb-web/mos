@@ -1,0 +1,16 @@
+{
+  "code": 0,
+  "msg":"success",
+  "data": {
+    "realname": "岳文佩",
+    "loginTimes": 20,
+    "lastLoginTime": 1528966095,
+    "createTime":1528966095,
+    "orders":286,
+    "sales":459680,
+    "sellers":8,
+    "mobile":13796383110,
+    "email":"wpyue@kaikeba.com",
+    "role":"Web销售"
+  }
+}

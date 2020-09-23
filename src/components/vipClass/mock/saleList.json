@@ -1,0 +1,18 @@
+{
+  "code": 0,
+  "msg": "success",
+  "data": [
+    {
+      "sellerId": 1,
+      "sellerName": "小红"
+    },
+    {
+      "sellerId": 2,
+      "sellerName": "小明"
+    },
+    {
+      "sellerId": 3,
+      "sellerName": "小张"
+    }
+  ]
+}

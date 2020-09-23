@@ -1,0 +1,26 @@
+{
+  "code": 0,
+  "msg": "success",
+  "data": [
+    {
+      "subjectId": 75,
+      "subjectName": "java"
+    },
+    {
+      "subjectId": 2,
+      "subjectName": "python"
+    },
+    {
+      "subjectId": 74,
+      "subjectName": "web"
+    },
+    {
+      "subjectId": 5,
+      "subjectName": "pm"
+    },
+    {
+      "subjectId": 6,
+      "subjectName": "ai"
+    }
+  ]
+}

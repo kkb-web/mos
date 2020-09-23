@@ -1,0 +1,18 @@
+{
+  "code": 0,
+  "msg": "success",
+  "data": [
+    {
+      "mediaId": 1,
+      "mediaName": "java1"
+    },
+    {
+      "mediaId": 2,
+      "mediaName": "java2"
+    },
+    {
+      "mediaId": 3,
+      "mediaName": "java3"
+    }
+  ]
+}

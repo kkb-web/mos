@@ -1,0 +1,45 @@
+{
+  "code": 0,
+  "msg": "success",
+  "data": {
+    "id": 7,
+    "name": "222",
+    "description": "222",
+    "details": [
+      {
+        "permissionId": 1,
+        "self": 0,
+        "subjects": []
+      },
+      {
+        "permissionId": 2,
+        "self": 1,
+        "subjects": [
+          "1"
+        ]
+      },
+      {
+        "permissionId": 3,
+        "self": 1,
+        "subjects": [
+          "1"
+        ]
+      },
+      {
+        "permissionId": 4,
+        "self": 1,
+        "subjects": [
+          "2"
+        ]
+      },
+      {
+        "permissionId": 5,
+        "self": 1,
+        "subjects": [
+          "2"
+        ]
+      }
+    ]
+  }
+}
+

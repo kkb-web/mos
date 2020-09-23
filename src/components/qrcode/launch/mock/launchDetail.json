@@ -1,0 +1,18 @@
+{
+  "code": 0,
+  "msg": "success",
+  "data": {
+        "id": 1,
+        "mediaId": 11,
+        "mediaName": "小明",
+        "subject": "学科",
+        "price": 100,
+        "certificate": "https://www.baidu.com/img/bd_logo1.png",
+        "startTime": "1547196075",
+        "endTime": "1547282475",
+        "title": "test",
+        "createTime": "1547282475",
+        "link": "link",
+        "templateId": 2
+      }
+}

@@ -1,0 +1,18 @@
+{
+  "code": 0,
+  "msg": "success",
+  "data": [
+    {
+      "channelId": 1,
+      "channelName": "默认渠道"
+    },
+    {
+      "channelId": 2,
+      "channelName": "小明"
+    },
+    {
+      "channelId": 3,
+      "channelName": "小张"
+    }
+  ]
+}

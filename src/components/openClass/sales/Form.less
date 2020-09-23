@@ -1,0 +1,79 @@
+.formBody{
+  padding: 20px;
+  min-height:360px;
+  background: #fff;
+  .gutter-row{
+    margin-bottom:15px;
+  }
+  .plus,.minus,.question{
+    display: inline-block;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  .plus{
+    color: green;
+    .ant-btn.ant-btn-primary{
+      //border-radius: 20px;
+      //background: rgba(231, 80, 90, 1);
+      //border: none;
+    }
+  }
+  .minus{
+    color: red;
+  }
+  .btnOpera{
+    float: right;
+  }
+  .formTable{
+    margin-top:15px;
+    th,td{
+      text-align: center !important;
+    }
+    .opera{
+      span{ cursor: pointer; }
+    }
+  }
+}
+.page-nav{
+  background: #fff;
+  margin: 1px -20px 24px;
+  padding: 8px 30px;
+}
+.title-style {
+  font-size: 20px;
+  color: rgba(0, 0, 0, .85);
+  font-weight: 600;
+  margin: 15px 0 8px;
+}
+.course-title{
+  font-size: 18px;
+  color: rgb(51, 51, 51);
+  //margin: 15px 0 8px;
+}
+.open-course-sale .ant-select-selection.ant-select-selection--single{
+  width: 115px;
+  margin-right: 10px;
+  //margin-bottom: 10px;
+}
+
+@media screen and (max-width: 836px){
+  .status .ant-select-selection.ant-select-selection--single{
+    margin-bottom: 10px;
+  }
+}
+
+@media screen and (min-width: 845px){
+  .label{
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 683px){
+  .ant-pagination-total-text{
+    display: none;
+  }
+}
+
+.ant-table-column-has-filters{
+  padding: 10px !important;
+}

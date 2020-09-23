@@ -1,0 +1,60 @@
+{
+  "code": 0,
+  "msg": "success",
+  "data": {
+    "offset": 0,
+    "limit": 2147483647,
+    "total": 18,
+    "size": 10,
+    "pages": 2,
+    "current": 1,
+    "searchCount": true,
+    "openSort": true,
+    "orderByField": "createTime",
+    "records": [
+      {
+        "id": 1,
+        "classId": "T41914281",
+        "courseId": "刘保胜",
+        "name": 1539932621,
+        "courseName": 5000,
+        "updateStatusTime": "退款",
+        "status": "退款方式",
+        "createTime": "学不动",
+        "signUp": "状态",
+        "pv": "小马哥",
+        "uv": 1539932621
+      },
+      {
+        "id": 1,
+        "classId": "T41914281",
+        "courseId": "刘保胜",
+        "name": 1539932621,
+        "courseName": 5000,
+        "updateStatusTime": "退款",
+        "status": "退款方式",
+        "createTime": "学不动",
+        "signUp": "状态",
+        "pv": "小马哥",
+        "uv": 1539932621
+      },
+      {
+        "id": 1,
+        "classId": "T41914281",
+        "courseId": "刘保胜",
+        "name": 1539932621,
+        "courseName": 5000,
+        "updateStatusTime": "退款",
+        "status": "退款方式",
+        "createTime": "学不动",
+        "signUp": "状态",
+        "pv": "小马哥",
+        "uv": 1539932621
+      }
+    ],
+    "condition": {},
+    "customCondition": {},
+    "offsetCurrent": 0,
+    "asc": false
+  }
+}

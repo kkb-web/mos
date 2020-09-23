@@ -1,0 +1,70 @@
+{
+  "code": 0,
+  "msg": "success",
+  "data": {
+    "offset": 0,
+    "limit": 2147483647,
+    "total": 18,
+    "size": 10,
+    "pages": 2,
+    "current": 1,
+    "searchCount": true,
+    "orderByField": "createTime",
+    "records": [
+      {
+        "id": 1,
+        "username": "小明",
+        "mobile": "18812669089",
+        "nickname": "小飞侠",
+        "value": "360",
+        "sellerName": "余成媛",
+        "friendTime": 1539864001,
+        "intentionName": "Web全栈架构师"
+      },
+      {
+        "id": 2,
+        "username": "小张",
+        "mobile": "18322669089",
+        "nickname": "小小花",
+        "value": "360",
+        "sellerName": "余成媛",
+        "friendTime": 1539864001,
+        "intentionName": "Web全栈架构师"
+      },
+      {
+        "id": 3,
+        "username": "小刘",
+        "mobile": "17812669089",
+        "nickname": "小飞象",
+        "value": "360",
+        "sellerName": "余成媛",
+        "friendTime": 1559864001,
+        "intentionName": "Web全栈架构师"
+      },
+      {
+        "id": 4,
+        "username": "小谢",
+        "mobile": "15812669089",
+        "nickname": "小树苗",
+        "value": "头条",
+        "sellerName": "余成媛",
+        "friendTime": 1539864001,
+        "intentionName": "Web全栈架构师"
+      },
+      {
+        "id": 5,
+        "username": "小马",
+        "mobile": "18812369089",
+        "nickname": "小baby",
+        "value": "大V",
+        "sellerName": "余成媛",
+        "friendTime": 1539864001,
+        "intentionName": "Web全栈架构师"
+      }
+    ],
+    "condition": {},
+    "customCondition": {},
+    "offsetCurrent": 0,
+    "asc": false
+  }
+}

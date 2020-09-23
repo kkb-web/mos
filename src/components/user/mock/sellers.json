@@ -1,0 +1,31 @@
+{
+  "code": 0,
+  "msg":"success",
+  "data": [
+      {
+        "subjectNo":"Java-01",
+        "wechat":"Smei1356",
+        "friends":9,
+        "imei":"35 672333 222222 2",
+        "mobileType":"ip5-金色",
+        "salesName":"Alice",
+        "allocTime":"1530126549",
+        "modify":11,
+        "id":0,
+        "friendsChangeType": 1
+      },
+      {
+        "subjectNo":"Java-02",
+        "wechat":"Smei1356",
+        "friends":3,
+        "imei":"35 672333 222222 2",
+        "mobileType":"ip5-金色",
+        "salesName":"Bob",
+        "allocTime":"1528966095",
+        "modify":9,
+        "id":1,
+        "friendsChangeType": 2
+      }
+    ]
+
+}

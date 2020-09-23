@@ -1,0 +1,75 @@
+{
+  "code": 0,
+  "msg": "success",
+  "data": [
+    {
+      "imei": "123",
+      "sellerIds": [
+        {
+          "sellerId": 1,
+          "num": 1,
+          "wechat": "wechat1",
+          "imei": "123456789",
+          "deviceId": 1,
+          "subjectName": "java"
+        },
+        {
+          "sellerId": 2,
+          "num": 2,
+          "wechat": "wechat2",
+          "imei": "123456789",
+          "deviceId": 1,
+          "subjectName": "java"
+        },
+        {
+          "sellerId": 3,
+          "num": 3,
+          "wechat": "wechat3",
+          "imei": "123456789",
+          "deviceId": 1,
+          "subjectName": "java"
+        }
+      ],
+      "deviceId": 1,
+      "subjectName": "java"
+    },
+    {
+      "imei": "4",
+      "sellerIds": [
+        {
+          "sellerId": 4,
+          "num": 1,
+          "wechat": "wechat2-1",
+          "imei": "123466785",
+          "deviceId": 2,
+          "subjectName": "web"
+        }
+      ],
+      "deviceId": 2,
+      "subjectName": "web"
+    },
+    {
+      "imei": "456",
+      "sellerIds": [
+        {
+          "sellerId": 5,
+          "num": 1,
+          "wechat": "wechat3-1",
+          "imei": "123466785",
+          "deviceId": 3,
+          "subjectName": "java"
+        },
+        {
+          "sellerId": 6,
+          "num": 2,
+          "wechat": "wechat3",
+          "imei": "123456789",
+          "deviceId": 3,
+          "subjectName": "java"
+        }
+      ],
+      "deviceId": 3,
+      "subjectName": "java"
+    }
+  ]
+}

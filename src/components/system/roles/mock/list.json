@@ -1,0 +1,26 @@
+{
+  "code": 0,
+  "msg": "success",
+  "data": {
+    "records": [
+      {
+        "name": "Boss",
+        "description": null,
+        "id": 1,
+        "createTime": 1539123937,
+        "num": 1
+      },
+      {
+        "name": "销售",
+        "description": null,
+        "id": 2,
+        "createTime": 1539123937,
+        "num": 1
+      }
+    ],
+    "total": 4,
+    "size": 10,
+    "current": 1,
+    "pages": 1
+  }
+}

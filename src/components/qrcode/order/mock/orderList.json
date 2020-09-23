@@ -1,0 +1,35 @@
+{
+  "code": 0,
+  "msg": "success",
+  "data": {
+    "total": 200,
+    "size": 3,
+    "pages": 4,
+    "records": [
+      {
+        "id": 0,
+        "mediaName": "java1",
+        "createBy": "小红",
+        "adTime": 1539932621,
+        "nickname": "Alice",
+        "salesName": "销售1",
+        "seller": "java-1",
+        "price": 7980,
+        "friendTime": 1539932621,
+        "createTime": 1539932621
+      },
+      {
+        "id": 1,
+        "mediaName": "java1",
+        "createBy": "小红",
+        "adTime": 1539932621,
+        "nickname": "Alice",
+        "salesName": "销售1",
+        "seller": "java-1",
+        "price": 7980,
+        "friendTime": 1539932621,
+        "createTime": 1539932621
+      }
+    ]
+  }
+}

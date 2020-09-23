@@ -1,0 +1,120 @@
+{
+  "code": 0,
+  "msg": "success",
+  "data": {
+    "user": [
+      {
+        "sellerId": 1,
+        "salesName": "jiang1"
+      },
+      {
+        "sellerId": 2,
+        "salesName": "jiang2"
+      },
+      {
+        "sellerId": 3,
+        "salesName": "jiang3"
+      },
+      {
+        "sellerId": 4,
+        "salesName": "jiang4"
+      },
+      {
+        "sellerId": 5,
+        "salesName": "jiang5"
+      }
+    ],
+    "users": [
+      {
+        "sellerId": 111,
+        "salesName": "jiang1",
+        "channels": [
+          {
+            "channelId": 10,
+            "channelName": "渠道一"
+          },
+          {
+            "channelId": 11,
+            "channelName": "渠道二"
+          },
+          {
+            "channelId": 12,
+            "channelName": "渠道三"
+          }
+        ]
+      },
+      {
+        "sellerId": 222,
+        "salesName": "jiang2",
+        "channels": [
+          {
+            "channelId": 13,
+            "channelName": "渠道一"
+          },
+          {
+            "channelId": 14,
+            "channelName": "渠道二"
+          },
+          {
+            "channelId": 15,
+            "channelName": "渠道三"
+          }
+        ]
+      },
+      {
+        "sellerId": 333,
+        "salesName": "jiang3",
+        "channels": [
+          {
+            "channelId": 16,
+            "channelName": "渠道一"
+          },
+          {
+            "channelId": 17,
+            "channelName": "渠道二"
+          },
+          {
+            "channelId": 18,
+            "channelName": "渠道三"
+          }
+        ]
+      },
+      {
+        "sellerId": 444,
+        "salesName": "jiang4",
+        "channels": [
+          {
+            "channelId": 19,
+            "channelName": "渠道一"
+          },
+          {
+            "channelId": 20,
+            "channelName": "渠道二"
+          },
+          {
+            "channelId": 21,
+            "channelName": "渠道三"
+          }
+        ]
+      },
+      {
+        "sellerId": 555,
+        "salesName": "jiang5",
+        "channels": [
+          {
+            "channelId": 22,
+            "channelName": "渠道一"
+          },
+          {
+            "channelId": 23,
+            "channelName": "渠道二"
+          },
+          {
+            "channelId": 24,
+            "channelName": "渠道三"
+          }
+        ]
+      }
+    ]
+  }
+}

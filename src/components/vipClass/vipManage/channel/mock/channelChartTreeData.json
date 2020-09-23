@@ -1,0 +1,40 @@
+{
+  "code": 0,
+  "msg": "success",
+  "data": {
+    "user": [
+      {
+        "sellerId": 1,
+        "salesName": "jiang1"
+      },
+      {
+        "sellerId": 2,
+        "salesName": "jiang2"
+      },
+      {
+        "sellerId": 3,
+        "salesName": "jiang3"
+      },
+      {
+        "sellerId": 4,
+        "salesName": "jiang4"
+      },
+      {
+        "sellerId": 5,
+        "salesName": "jiang5"
+      }
+    ],
+    "users": [
+      {
+        "sellerId": 111,
+        "salesName": "jiang1",
+        "channels": [
+          {
+            "channelId": 10,
+            "channelName": "渠道一"
+          }
+        ]
+      }
+    ]
+  }
+}

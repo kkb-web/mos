@@ -1,0 +1,86 @@
+.formBody{
+  padding: 20px;
+  min-height:360px;
+  background: #fff;
+  .upload-title {
+    width: 100%;
+    border-top: 1px solid rgb(201, 201, 201);
+    font-size: 20px;
+    padding-top: 10px;
+    color: rgb(153, 153, 153);
+    -webkit-font-smoothing: antialiased;
+    margin-top: 10px;
+  }
+}
+.page-nav{
+  background: #fff;
+  margin: 1px -20px 24px;
+  padding: 8px 30px;
+}
+.title-style {
+  font-size: 20px;
+  color: rgba(0, 0, 0, .85);
+  font-weight: 600;
+  margin: 15px 0 8px;
+}
+.ant-upload.ant-upload-drag{
+  width: 200px;
+}
+.avatar-uploader > .ant-upload {
+  width: 158px !important;
+  height: 158px !important;
+}
+.qrcode-form .anticon{
+  font-size: 20px;
+}
+.ant-upload img{
+  width: 142px;
+  height: 142px;
+}
+.form-item{
+  float: left;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.qrcode-form{
+  width: 63%;
+}
+
+.editor-form{
+  width: 63%;
+}
+.qrcode-photo{
+  width: 170%;
+}
+.bottom-btn{
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 9;
+  height: 56px;
+  line-height: 56px;
+  text-align: right;
+  background-color: #fff;
+  box-shadow: 0 -1px 5px rgba(0, 0, 0, 0.1);
+  padding-top: 0;
+  padding-right: 20px;
+}
+@media screen and (max-width: 640px){
+  .qrcode-form{
+    width: 100%;
+  }
+  .editor-form{
+    width: 100%;
+  }
+  .qrcode-photo{
+    width: 100%;
+  }
+}
+
+input:-webkit-autofill,
+textarea:-webkit-autofill,
+select:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0 1000px white inset;
+}

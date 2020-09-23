@@ -1,0 +1,188 @@
+.media-formBody{
+  padding: 20px;
+  min-height:360px;
+  background: #fff;
+  .media-name-td{
+    padding: 16px 10px;
+  }
+  .media-name {
+    text-align: left;
+    margin: 0 auto;
+    width: 71px;
+    word-break: break-all;
+    white-space:normal;
+    text-overflow: ellipsis;
+    /* autoprefixer: off */
+    -webkit-box-orient: vertical;
+    /* autoprefixer: on */
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+    margin-bottom: 0;
+
+  }
+  .media-nickName{
+    margin: 0 auto;
+    width: 98px;
+    word-break: break-all;
+    white-space:normal;
+    text-overflow: ellipsis;
+    /* autoprefixer: off */
+    -webkit-box-orient: vertical;
+    /* autoprefixer: on */
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+    margin-bottom: 0;
+  }
+  .media-wechatState{
+    margin: 0 auto;
+    width: 70px;
+    word-break: break-all;
+    white-space:normal;
+    text-overflow: ellipsis;
+    /* autoprefixer: off */
+    -webkit-box-orient: vertical;
+    /* autoprefixer: on */
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+    margin-bottom: 0;
+  }
+  .ant-table-thead tr th{
+    padding: 16px 3px;
+  }
+  .ant-table-fixed{
+    border: none!important;
+  }
+  .ant-table-thead tr{
+    border-left: none;
+    border-right: none;
+  }
+  .ant-table-thead tr th{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    //border-bottom: none;
+    //border:none;
+  }
+  .ant-table-thead tr th.ant-table-column-has-filters{
+    padding: 16px 3px !important;
+  }
+  .ant-table-tbody tr td{
+    border-right: none;
+    padding: 16px 5px;
+  }
+  .mediaAction{
+    padding-left: 6px;
+    padding-right: 6px;
+  }
+
+  .ant-table-column-sorter{
+    margin-left: 0px;
+  }
+  .gutter-row{
+    margin-bottom:15px;
+  }
+  .plus,.minus,.question{
+    display: inline-block;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  .plus{
+    color: green;
+    .ant-btn.ant-btn-primary{
+      //border-radius: 20px;
+      //background: rgba(231, 80, 90, 1);
+      //border: none;
+    }
+  }
+  .minus{
+    color: red;
+  }
+  .btnOpera{
+    float: right;
+  }
+  .formTable{
+    margin-top:15px;
+    margin-bottom: 15px;
+    th,td{
+      text-align: center !important;
+    }
+    .opera{
+      span{ cursor: pointer; }
+    }
+  }
+}
+#up-or-down .ant-btn.ant-btn-default{
+  border-radius: 20px;
+  margin-right: 10px;
+  border-color: #333;
+  color: #333;
+  float: left;
+}
+#up-or-down .ant-btn.ant-btn-default:hover{
+  background: #40a9ff;
+  color: #fff;
+  border-color: #40a9ff;
+}
+.media-nav{
+  background: #fff;
+  margin: 1px -20px 24px;
+  padding: 8px 30px;
+}
+.media-title-style {
+  font-size: 20px;
+  color: rgba(0, 0, 0, .85);
+  font-weight: 600;
+  margin: 15px 0 8px;
+}
+
+.ant-pagination-options, .ant-pagination-total-text{
+  float: left;
+  margin-left: 0;
+}
+.ant-pagination {
+  float: right;
+}
+
+@media screen and (max-width: 683px){
+  .ant-pagination-total-text{
+    display: none;
+  }
+}
+
+@media screen and (max-width: 375px){
+  .ant-input-affix-wrapper .ant-input:not(:last-child){
+    padding-right: 0;
+  }
+}
+
+.ant-table-column-has-filters{
+  padding: 10px !important;
+}
+.media-model-code{
+  margin-bottom: 10px !important;
+  position: relative !important;
+}
+.media-models .has-error{
+  position: relative;
+}
+.media-models .ant-form-explain{
+  position: absolute;
+  left: 2px;
+  top: 38px;
+  font-size: 12px;
+}
+.media-models-edit .has-error{
+  position: relative;
+}
+.media-models-edit .ant-form-explain{
+  position: absolute;
+  left: 2px;
+  top: 38px;
+  font-size: 12px;
+}
+.media-models .ant-form-explain{
+  color: red!important;
+}

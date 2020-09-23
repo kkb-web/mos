@@ -1,0 +1,68 @@
+.ant-layout-has-sider .trigger {
+    font-size: 18px;
+    line-height: 64px;
+    padding: 0 16px;
+    cursor: pointer;
+    transition: color .3s;
+}
+
+.ant-layout-has-sider .trigger:hover {
+    color: #108ee9;
+}
+
+.ant-layout-has-sider .logo {
+    height: 60px;
+    //background: url('./img/logo.png') no-repeat center center;
+    //background-size: 30%;
+    //border-radius: 6px;
+    //margin: 16px;
+}
+
+.ant-layout-sider{
+    z-index: 1203;
+    box-shadow: 2px 0 6px rgba(0, 21, 41, 0.35);
+}
+
+.ant-select-arrow-icon, .anticon-left, .anticon-right{
+    font-size: 14px !important;
+}
+
+// Header
+.ant-menu-submenu-horizontal .ant-menu-vertical .logout{
+    padding: 0;
+}
+.logout span{
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+}
+.ant-layout-footer{
+    padding: 15px 50px;
+}
+.ant-menu.ant-menu-light.ant-menu-root.ant-menu-horizontal {
+    float: right;
+    //padding: 8px 0 3px;
+    //margin-top: 5px;
+}
+.ant-menu-submenu-title{
+    line-height: 63px;
+}
+:root .ant-table-column-sorter .anticon-caret-down, :root .ant-table-column-sorter .anticon-caret-up{
+    font-size: 14px !important;
+}
+.ant-table-column-sorter{
+    top: -2px !important;
+}
+
+@media screen and (max-width: 640px){
+    .ant-layout-sider.ant-layout-sider-collapsed{
+        flex: 0 0 !important;
+        min-width: 0 !important;
+    }
+    .ant-menu-inline-collapsed{
+        width: 0 !important;
+    }
+    .ant-layout-sider-children > .ant-menu.ant-menu-inline-collapsed > .ant-menu-submenu > .ant-menu-submenu-title{
+        padding: 0 0px !important;
+    }
+}

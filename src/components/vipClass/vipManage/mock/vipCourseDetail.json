@@ -1,0 +1,25 @@
+{
+  "code": 0,
+  "msg": "success",
+  "data": {
+    "id": 20,
+    "name": "公开课测试",
+    "createBy": "xiaoma",
+    "createTime": "1551937380",
+    "pv": "12",
+    "uv": "12",
+    "signup": 990,
+    "sales": 9000000,
+    "remark": "我一定是帅哥",
+    "limitedCreate": 0,
+    "friendCircleTitle": "测试",
+    "groupShareTitle": "测试",
+    "shareDescription": "测试",
+    "shareCoverImage": "15517752865597534",
+    "subject_id": 2,
+    "description": "22323232323",
+    "price": "33333",
+    "icon": "15518462296244434_01_02"
+
+  }
+}

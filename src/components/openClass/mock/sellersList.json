@@ -1,0 +1,36 @@
+{
+  "code": 0,
+  "msg": "success",
+  "data": {
+    "sellers": [
+      {
+        "sellerId": 12,
+        "sellerName": "小明",
+        "channels": [
+          {
+            "channelCode": "ohj05h",
+            "channelName": "h5"
+          },
+          {
+            "channelCode": "3hj05h",
+            "channelName": "PC"
+          }
+        ]
+      },
+      {
+        "sellerId": 14,
+        "sellerName": "小宏",
+        "channels": [
+          {
+            "channelCode": "87j05h",
+            "channelName": "h52"
+          },
+          {
+            "channelCode": "6hj05h",
+            "channelName": "PC2"
+          }
+        ]
+      }
+    ]
+  }
+}

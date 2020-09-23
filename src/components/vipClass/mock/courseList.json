@@ -1,0 +1,18 @@
+{
+  "code": 0,
+  "msg": "success",
+  "data": [
+    {
+      "courseId": 1,
+      "courseName": "web"
+    },
+    {
+      "courseId": 2,
+      "courseName": "java"
+    },
+    {
+      "courseId": 3,
+      "courseName": "python"
+    }
+  ]
+}

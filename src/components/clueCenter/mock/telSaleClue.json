@@ -1,0 +1,77 @@
+{
+  "code": 0,
+  "msg": "success",
+  "data": {
+    "offset": 0,
+    "limit": 2147483647,
+    "total": 18,
+    "size": 10,
+    "pages": 2,
+    "current": 1,
+    "searchCount": true,
+    "openSort": true,
+    "orderByField": "createTime",
+    "records": [
+      {
+        "id": 1,
+        "wechat": "wshr-98",
+        "telephone": "15770896002",
+        "nickName": "小蛮子",
+        "extension": "Java小课",
+        "subject": "Java",
+        "saleName":"小马哥",
+        "confirmStatus": 1,
+        "confirmTime": 2328374603,
+        "channelName": "营销小课-朋友圈"
+      },{
+        "id": 2,
+        "wechat": "wshr-98",
+        "telephone": "15770896002",
+        "nickName": "小蛮子",
+        "extension": "Java小课",
+        "subject": "Java",
+        "saleName":"小马哥",
+        "confirmStatus": 0,
+        "confirmTime": 2328374603,
+        "channelName": "营销小课-朋友圈"
+      },{
+        "id": 3,
+        "wechat": "wshr-98",
+        "telephone": "15770896002",
+        "nickName": "小蛮子",
+        "extension": "Java小课",
+        "subject": "Java",
+        "saleName":"小马哥",
+        "confirmStatus": 1,
+        "confirmTime": 2328374603,
+        "channelName": "营销小课-朋友圈"
+      },{
+        "id": 4,
+        "wechat": "wshr-98",
+        "telephone": "15770896002",
+        "nickName": "小蛮子",
+        "extension": "Java小课",
+        "subject": "Java",
+        "saleName":"小马哥",
+        "confirmStatus": 0,
+        "confirmTime": 2328374603,
+        "channelName": "营销小课-朋友圈"
+      },{
+        "id": 5,
+        "wechat": "wshr-98",
+        "telephone": "15770896002",
+        "nickName": "小蛮子",
+        "extension": "Java小课",
+        "subject": "Java",
+        "saleName":"小马哥",
+        "confirmStatus": 1,
+        "confirmTime": 2328374603,
+        "channelName": "营销小课-朋友圈"
+      }
+    ],
+    "condition": {},
+    "customCondition": {},
+    "offsetCurrent": 0,
+    "asc": false
+  }
+}

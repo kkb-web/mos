@@ -1,0 +1,62 @@
+.vip-course-sale{
+  margin-top: 20px;
+  .sale-title{
+    float: left;
+    margin-top: 3px;
+  }
+  .sale-pick{
+    font-size: 14px;
+    font-weight: 400;
+    float: right;
+    vertical-align: center;
+    .click-div, .detail-div{
+      margin-top: 5px;
+    }
+  }
+  .right-table{
+    float: right;
+    width: 32%;
+    margin-left: 3%;
+    h4{
+      margin-left: 10px;
+    }
+    .ant-table-thead > tr > th, .ant-table-tbody > tr > td{
+      padding: 8px 5px;
+      text-align: center;
+    }
+    .right-table-page{
+      margin-top: 20px;
+      width: 100%;
+    }
+    .right-table-page > .ant-pagination{
+      float: none;
+      text-align: center;
+    }
+    .vip-seller-name{
+      cursor: pointer;
+    }
+    .vip-seller-name:hover{
+      color: #1890FF;
+    }
+  }
+}
+@media screen and (max-width: 930px) {
+  .vip-course-sale{
+    margin-top: 20px;
+    .sale-title{
+      clear: both;
+    }
+    .sale-pick{
+      clear: both;
+    }
+    .right-table{
+      clear: both;
+      width: 100%;
+      margin-top: 30px;
+      .right-table-page{
+        margin-top: 20px;
+        width: 100%;
+      }
+    }
+  }
+}

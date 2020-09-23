@@ -1,0 +1,78 @@
+{
+  "code": 0,
+  "msg": "success",
+  "data": {
+    "offset": 0,
+    "limit": 2147483647,
+    "total": 10,
+    "size": 8,
+    "pages": 2,
+    "current": 1,
+    "searchCount": true,
+    "openSort": true,
+    "orderByField": "createTime",
+    "courseCode": "tyopse",
+    "records": [
+      {
+        "id": 1,
+        "code": "aaaaaa",
+        "name": "小马哥专属渠道",
+        "salesName": "小马哥",
+        "pv": "123",
+        "uv": "34",
+        "price": "20000",
+        "signUp": 250,
+        "sale": 890000,
+        "createTime": 1551171659
+      },
+      {
+        "id": 1,
+        "code": "bbbbbb",
+        "name": "小马哥专属渠道",
+        "salesName": "小马哥",
+        "pv": "123",
+        "uv": "34",
+        "price": "20000",
+        "signUp": 250,
+        "sale": 890000,
+        "createTime": 1551171659
+      },
+      {
+        "id": 1,
+        "code": "rrrrrr",
+        "name": "小马哥专属渠道",
+        "salesName": "小马哥",
+        "pv": "123",
+        "uv": "34",
+        "price": "20000",
+        "signUp": 250,
+        "sale": 890000,
+        "createTime": 1551171659
+      },
+      {
+        "id": 1,
+        "code": "vvvvvv",
+        "name": "小马哥专属渠道",
+        "salesName": "小马哥",
+        "pv": "123",
+        "uv": "34",
+        "price": "20000",
+        "signUp": 250,
+        "sale": 890000,
+        "createTime": 1551171659
+      },
+      {
+        "id": 1,
+        "code": "mmmmmm",
+        "name": "小马哥专属渠道",
+        "salesName": "小马哥",
+        "pv": "123",
+        "uv": "34",
+        "price": "20000",
+        "signUp": 250,
+        "sale": 890000,
+        "createTime": 1551171659
+      }
+    ]
+  }
+}

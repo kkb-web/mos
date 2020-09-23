@@ -1,0 +1,13 @@
+{
+  "code": 0,
+  "msg": "success",
+  "data": [
+    {"name": "余成媛", "number": 1, "sellerId": 31, "time": "2019-04-08 10"},
+    {"name": "陈金阳", "number": 1, "sellerId": 36, "time": "2019-04-08 11"},
+    {"name": "张静", "number": 4, "sellerId": 77, "time": "2019-04-08 11"},
+    {"name": "宋玉", "number": 3, "sellerId": 40, "time": "2019-04-08 14"},
+    {"name": "余成媛", "number": 3, "sellerId": 31, "time": "2019-04-08 15"},
+    {"name": "刘百慧", "number": 2, "sellerId": 18, "time": "2019-04-08 21"},
+    {"name": "余成媛", "number": 3, "sellerId": 31, "time": "2019-04-09 08"}
+  ]
+}

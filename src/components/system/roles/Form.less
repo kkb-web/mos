@@ -1,0 +1,101 @@
+.formBody{
+  padding: 20px;
+  min-height:360px;
+  background: #fff;
+  .gutter-row{
+    margin-bottom:15px;
+  }
+  .plus,.minus,.question{
+    display: inline-block;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  .plus{
+    color: green;
+    .ant-btn.ant-btn-primary{
+      //border-radius: 20px;
+      //background: rgba(231, 80, 90, 1);
+      //border: none;
+    }
+  }
+  .minus{
+    color: red;
+  }
+  .btnOpera{
+    float: right;
+  }
+  .formTable{
+    margin-top:15px;
+    margin-bottom: 15px;
+    th,td{
+      text-align: center !important;
+    }
+    .opera{
+      span{ cursor: pointer; }
+    }
+  }
+}
+#up-or-down .ant-btn.ant-btn-default{
+  border-radius: 20px;
+  margin-right: 10px;
+  border-color: #333;
+  color: #333;
+  float: left;
+}
+#up-or-down .ant-btn.ant-btn-default:hover{
+  background: #40a9ff;
+  color: #fff;
+  border-color: #40a9ff;
+}
+.page-nav{
+  background: #fff;
+  margin: 1px -20px 24px;
+  padding: 8px 30px;
+}
+.title-style {
+  font-size: 20px;
+  color: rgba(0, 0, 0, .85);
+  font-weight: 600;
+  margin: 15px 0 8px;
+}
+
+.ant-pagination-options, .ant-pagination-total-text{
+  float: left;
+  margin-left: 0;
+}
+.ant-pagination {
+  float: right;
+}
+
+@media screen and (max-width: 683px){
+  .ant-pagination-total-text{
+    display: none;
+  }
+}
+
+@media screen and (max-width: 375px){
+  .ant-input-affix-wrapper .ant-input:not(:last-child){
+    padding-right: 0;
+  }
+}
+
+.ant-table-column-has-filters{
+  padding: 10px !important;
+}
+
+input[type=checkbox]{
+  border: 1px solid rgba(217, 217, 217, 0.5);
+  width: 16px;
+  height: 16px;
+  background: black;
+  outline: none;
+}
+
+//.authority-role .ant-checkbox-inner{
+//  width: 15px;
+//  height: 15px;
+//}
+
+.ant-breadcrumb a{
+  text-decoration: none !important;
+}

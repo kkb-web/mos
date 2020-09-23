@@ -1,0 +1,77 @@
+
+{
+  "code": 0,
+  "msg": "success",
+  "data": {
+    "id": 1,
+    "realname": "刘勇",
+    "mobile": "342423423423",
+    "email": "liyong@kkb.com",
+    "roleId": 2,
+    "rolename": "销售",
+    "imei": [
+      {
+        "subjectName": "java",
+        "imei": "123",
+        "sellerIds": [
+          {
+            "sellerId": 1,
+            "num": 1,
+            "wechat": "wechat1",
+            "subjectName": "java",
+            "imei": "123456789",
+            "deviceId": 1
+          },
+          {
+            "sellerId": 2,
+            "num": 2,
+            "wechat": "wechat2",
+            "subjectName": "java",
+            "imei": "123456789",
+            "deviceId": 1
+          },
+          {
+            "sellerId": 3,
+            "num": 3,
+            "wechat": "wechat3",
+            "subjectName": "java",
+            "imei": "123456789",
+            "deviceId": 1
+          }
+        ],
+        "deviceId": 1
+      },
+      {
+        "subjectName": "java",
+        "imei": "456",
+        "sellerIds": [
+          {
+            "sellerId": 4,
+            "num": 1,
+            "wechat": "wechat4",
+            "subjectName": "java",
+            "imei": "123456789",
+            "deviceId": 2
+          },
+          {
+            "sellerId": 5,
+            "num": 2,
+            "wechat": "wechat5",
+            "subjectName": "java",
+            "imei": "123456789",
+            "deviceId": 2
+          },
+          {
+            "sellerId": 6,
+            "num": 3,
+            "wechat": "wechat6",
+            "subjectName": "java",
+            "imei": "123456789",
+            "deviceId": 2
+          }
+        ],
+        "deviceId": 2
+      }
+    ]
+  }
+}

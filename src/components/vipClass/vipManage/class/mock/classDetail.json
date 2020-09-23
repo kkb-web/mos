@@ -1,0 +1,21 @@
+{
+  "code": 0,
+  "msg": "success",
+  "data": {
+    "id": 18,
+    "courseId": 20,
+    "courseName": "公开课测试",
+    "status": 0,
+    "name": "第三期",
+    "description": "公开课班次第三期",
+    "price": 1234,
+    "oldCourseId": 2,
+    "oldCourseName": "java",
+    "icon": "15518462296244434_01_02",
+    "friendCircleTitle": "测试",
+    "groupShareTitle": "测试",
+    "shareDescription": "测试",
+    "shareCoverImage": "15517752865597534",
+    "exist": "第二期"
+  }
+}

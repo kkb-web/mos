@@ -1,0 +1,113 @@
+.formBody{
+  padding: 20px;
+  min-height:360px;
+  background: #fff;
+  .gutter-row{
+    margin-bottom:15px;
+  }
+  .plus,.minus,.question{
+    display: inline-block;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  .plus{
+    color: green;
+    .ant-btn.ant-btn-primary{
+      //border-radius: 20px;
+      //background: rgba(231, 80, 90, 1);
+      //border: none;
+    }
+  }
+  .minus{
+    color: red;
+  }
+  .btnOpera{
+    float: right;
+    .space{
+      margin-right: 10px;
+    }
+    .ant-input{
+      width: 210px;
+    }
+  }
+  .formTable{
+    margin-top:15px;
+    margin-bottom: 15px;
+    position: relative;
+    th,td{
+      text-align: center !important;
+    }
+    .opera{
+      span{ cursor: pointer; }
+    }
+  }
+}
+.AccountList{
+  .ant-select{
+    width: 100%;
+  }
+}
+#up-or-down .ant-btn.ant-btn-default{
+  border-radius: 20px;
+  margin-right: 10px;
+  border-color: #333;
+  color: #333;
+  float: left;
+}
+#up-or-down .ant-btn.ant-btn-default:hover{
+  background: #40a9ff;
+  color: #fff;
+  border-color: #40a9ff;
+}
+.page-nav{
+  background: #fff;
+  margin: 1px -20px 24px;
+  padding: 8px 30px;
+}
+.title-style {
+  font-size: 20px;
+  color: rgba(0, 0, 0, .85);
+  font-weight: 600;
+  margin: 15px 0 8px;
+}
+.ant-pagination-options, .ant-pagination-total-text{
+  float: left;
+  margin-left: 0;
+}
+.ant-pagination {
+  float: right;
+}
+@media screen and (max-width: 825px) {
+  .course-text{
+    width: 100px !important;
+  }
+}
+@media screen and (max-width: 683px){
+  .ant-pagination-total-text{
+    display: none;
+  }
+}
+
+.channel .ant-select-selection.ant-select-selection--single{
+  width: 200px;
+}
+
+.ant-input-search.ant-input-search-enter-button > .ant-input{
+  padding-right: 75px;
+}
+
+.ant-table-column-has-filters{
+  padding: 8px !important;
+}
+.select-sale .ant-select-selection.ant-select-selection--single{
+  width: 225px;
+}
+
+.open-course-form .anticon{
+  font-size: 16px;
+}
+
+.open-course-table .ant-table-thead > tr > th, .open-course-table .ant-table-tbody > tr > td{
+  padding: 16px 10px;
+  text-align: center;
+}

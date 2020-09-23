@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <!-- 最新版本的 Bootstrap 核心 CSS 文件 -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css"
+    integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <script type="text/javascript" src="//agent-gateway-1.cticloud.cn/js/agent/v10/cti-link.js"></script>
+  <script src="https://cdn.bootcss.com/jquery/1.9.0/jquery.min.js"></script>
+
+</head>
+
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-3 col-md-2">
+        <div id="phone"></div>
+      </div>
+      <div class="col-xs-3 col-md-2">
+        <div>
+          <span>时间</span><span id="lazy">00:00:00</span>
+        </div>
+      </div>
+      <div class="col-xs-2 col-md-2">
+        <button type="button" id="call" class="btn btn-success">打电话</button>
+      </div>
+      <div class="col-xs-2 col-md-2">
+        <button type="button" id="hangUp" class="btn btn-danger">挂断</button>
+      </div>
+      <div class="col-xs-6 col-md-6"></div>
+    </div>
+  </div>
+</body>
+<script>
+  function query(name, url) {
+    if (!name || typeof name !== 'string') return ''
+    if (!url) url = location.href
+    let mat = new RegExp('(^|[?&])' + name + '=(.*?)(&|#|$)', 'i').exec(url)
+    if (mat && mat.length >= 2) return decodeURIComponent(mat[2])
+    return ''
+  }
+
+  function doLogin() {
+    //调用座席登录权限验证接口获取sessionKey, qids和webSocketUrl等参数
+    // url += '?validateType=2&enterpriseId=7000203&timestamp=1564679701&cno=10009&sign=6b2b74b7fb9e8464bc33fa0ccada66fb'
+    var data = JSON.parse(query('params'))
+
+    console.log(data,'haichen')
+    // var url = query('url')
+    // var bindTel = query('bindTel') || 10009
+    // var bindType = query('bindType') || 3
+    // var loginStatus = query('loginStatus') || 1
+
+    // $.ajax({
+    //   type: 'GET',
+    //   dataType: 'jsonp',
+    //   jsonp: 'callback',
+    //   url: url,
+    //   success: function (r) {
+    //     var data = eval("(" + r + ")");
+        var params = {};
+        params.sessionKey = data.sessionKey;
+        params.enterpriseId = data.enterpriseId;  //
+        params.cno = data.cno;
+        params.bindTel = data.bindTel;
+        params.bindType = 3;
+        params.loginStatus = 1;
+        params.webSocketUrl = data.agentGateWayUrl;
+        params.qids = data.qids;    //班长席时返回
+
+        console.log(params,'paramsparamsparamsparams')
+        CTILink.Agent.login(params, function (result) {
+          console.log(result,'resultresultresultresult')
+          if (result.code == 0) {
+            //座席登录成功
+          } else {
+            //座席登录失败，失败原因： + result.msg
+          }
+        });
+    //   },
+    //   error: function (r) {
+    //     //登录失败，接口请求错误
+    //   }
+    // });
+  }
+
+
+  $(document).ready(function () {
+
+    CTILink.setup({ webrtc: true, debug: false }, function () {
+      //CTILink加载完成
+
+      //注册事件处理方法
+      /** 状态事件 */
+      CTILink.event("status", handleState);  //当前座席状态
+      CTILink.event("previewOutcallRinging", handleRinging);  //外呼座席响铃
+      CTILink.event("previewOutcallBridge", handleBridge); //外呼接通
+      // CTILink.event("consultStart", handleState);  //咨询开始
+      // CTILink.event("consultLink", handleState);  //咨询接听
+      // CTILink.event("consultError", handleState);  //咨询失败
+      // CTILink.event("unconsult", handleState);  //咨询挂断/接回/取消
+      // CTILink.event("consultThreeway", handleState);  //咨询三方
+      // CTILink.event("consultThreewayUnlink", handleState);  //咨询三方挂断
+      // CTILink.event("consultTransfer", handleState);  //咨询转移
+
+      /** 其他事件 */
+      // CTILink.event("ringing", handleRinging); //弹屏
+      // CTILink.event("kickout", handleKickout);  //被踢下线
+
+      //自动登录
+      doLogin();
+    });
+  });
+      var defaults = {},
+          one_second = 1000,
+          one_minute = one_second * 60,
+          one_hour = one_minute * 60,
+          one_day = one_hour * 24,
+          startDate = new Date(),
+          face = document.getElementById('lazy')
+
+        // http://paulirish.com/2011/requestanimationframe-for-smart-animating/
+        // var requestAnimationFrame = (function() {
+        //   return (
+        //     window.requestAnimationFrame ||
+        //     window.webkitRequestAnimationFrame ||
+        //     window.mozRequestAnimationFrame ||
+        //     window.oRequestAnimationFrame ||
+        //     window.msRequestAnimationFrame ||
+        //     function(callback) {
+        //       window.timer = window.setTimeout(callback, 1000 / 60)
+        //       console.log(window.timer)
+        //     }
+        //   )
+        // })()
+
+        // tick()
+
+    var tick = function() {
+      var now = new Date(),
+        elapsed = now - startDate,
+        parts = []
+
+      parts[0] = '' + Math.floor(elapsed / one_hour)
+      parts[1] = '' + Math.floor((elapsed % one_hour) / one_minute)
+      parts[2] = '' + Math.floor(((elapsed % one_hour) % one_minute) / one_second)
+
+      parts[0] = parts[0].length == 1 ? '0' + parts[0] : parts[0]
+      parts[1] = parts[1].length == 1 ? '0' + parts[1] : parts[1]
+      parts[2] = parts[2].length == 1 ? '0' + parts[2] : parts[2]
+
+      face.innerText = parts.join(':')
+
+      // requestAnimationFrame(tickStart)
+    }
+
+    function tickStart(params) {
+    startDate = new Date()
+     window.timer =  setInterval(function() {
+        tick()
+      }, 1000)
+    }
+
+    function tickStop() {
+      console.log(window.timer)
+      window.clearInterval(window.timer)
+    }
+  function handleState(data) {
+    console.log('当前座席状态', data.state)
+
+  }
+  function handleRinging(data) {
+    console.log('外呼座席响铃', data)
+    // tickStart()
+  }
+  function handleBridge(data) {
+    tickStart()
+    console.log('外呼接通', data)
+  }
+  const phone = query('phone')
+  const realMobile = query('realMobile')
+  $("#phone").html(phone)
+  $("#call").click(function (data) {
+    $(this).attr('disabled',true);
+    $("#hangUp").attr('disabled',false);
+    var params = {};
+    params.tel = realMobile;
+    console.log('正在拨打电话', phone, realMobile)
+    // CTILink.Agent.previewOutcall(params);
+    CTILink.Agent.axbOutcall(params);
+  })
+
+  $("#hangUp").click(function (data) {
+    tickStop()
+    console.log('挂掉电话');
+    $(this).attr('disabled',true);
+    $("#call").attr('disabled',false);
+    // params.userField = {'userFiled1':'value1', 'userFiled2':'value2'};
+    CTILink.SipSession.sipUnlink();
+  })
+    // CTILink.event("status", handleState);
+</script>
+
+</html>

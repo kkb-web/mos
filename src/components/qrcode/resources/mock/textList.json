@@ -1,0 +1,35 @@
+{
+  "code": 0,
+  "msg": "success",
+  "data": {
+    "total": 3,
+    "size": 40,
+    "pages": 1,
+    "current": 1,
+    "orderByField": "createTime",
+    "records": [{
+      "id": 1,
+      "name": "仅报名未看课",
+      "content": "#{UserName}同学你好，小师妹发现你报了《#{OpenCourseName}》课还没有来学习哦~  你怎么能偷懒呢... 小师妹这里有为你量身定制的学习计划和免费视频，快来加小师妹微信吧~",
+      "createTime": "1528966095",
+      "collectId": null,
+      "createBy": "小明"
+    },{
+      "id": 2,
+      "name": "仅报名未看课仅报名未看课仅报名未看课仅报",
+      "content": "#{UserName}同学你好，小助理发现你报了《#{OpenCourseName}》课，还没有来学习哦~  你怎么能偷懒呢... 小助理这里有为你量身定制的学习计划和免费视频，还剩30个领取名额，快来加小助理微信吧~",
+      "createTime": "1528966095",
+      "collectId": null,
+      "createBy": "小明"
+    },{
+      "id": 3,
+      "name": "仅报名未看课",
+      "content": "#{username}同学你好，小助理发现你报了《#{opencoursename}》课，看了#{LivePlayDuration}直播，  是不是对课程很感兴趣呢... 小助理这里有为你量身定制的学习计划和免费视频，快来加小助理微信吧~",
+      "createTime": "1528966095",
+      "collectId": 1,
+      "createBy": "小明"
+    }],
+    "offsetCurrent": 0,
+    "asc": false
+  }
+}

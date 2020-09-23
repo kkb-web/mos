@@ -1,0 +1,207 @@
+{
+  "code": 0,
+  "msg": "success",
+  "data": {
+    "pv": [
+      {
+        "key": "2_2147483647",
+        "value": "多次"
+      },
+      {
+        "key": "1_1",
+        "value": "一次"
+      }
+    ],
+    "sendInfo": [
+      {
+        "key": "0_0",
+        "value": "未发送"
+      },
+      {
+        "key": "1_5",
+        "value": "1-5次"
+      },
+      {
+        "key": "5_10",
+        "value": "5-10次"
+      }
+    ],
+    "signupStatus": [
+      {
+        "key": "1",
+        "value": "已报名"
+      },
+      {
+        "key": "0",
+        "value": "未报名"
+      }
+    ],
+    "subscribe": [
+      {
+        "key": "1",
+        "value": "已关注"
+      },
+      {
+        "key": "0",
+        "value": "未关注"
+      },
+      {
+        "key": "2",
+        "value": "已取关"
+      }
+    ],
+    "liveDuration": [
+      {
+        "key": "0_0",
+        "value": "未看直播"
+      },
+      {
+        "key": "0_5",
+        "value": "5分钟内"
+      },
+      {
+        "key": "5_30",
+        "value": "5-30分钟"
+      },
+      {
+        "key": "30_2147483647",
+        "value": "30分钟以上"
+      }
+    ],
+    "replayDuration": [
+      {
+        "key": "0_0",
+        "value": "未看直播"
+      },
+      {
+        "key": "0_5",
+        "value": "5分钟内"
+      },
+      {
+        "key": "5_30",
+        "value": "5-30分钟"
+      },
+      {
+        "key": "30_2147483647",
+        "value": "30分钟以上"
+      }
+    ],
+    "durationCount": [
+      {
+        "key": "0_0",
+        "value": "未看直播"
+      },
+      {
+        "key": "0_5",
+        "value": "5分钟内"
+      },
+      {
+        "key": "5_30",
+        "value": "5-30分钟"
+      },
+      {
+        "key": "30_2147483647",
+        "value": "30分钟以上"
+      }
+    ],
+    "seller": [
+      {
+        "key": "1",
+        "value": "张三"
+      },
+      {
+        "key": "2",
+        "value": "李四"
+      },
+      {
+        "key": "3",
+        "value": "王五"
+      }
+    ],
+    "channel": [
+      {
+        "key": "1",
+        "value": [
+          {
+            "key": "i85fwp",
+            "value": "系统默认"
+          },
+          {
+            "key": "nlt1xd",
+            "value": "官网PC"
+          }
+        ]
+      },
+      {
+        "key": "2",
+        "value": [
+          {
+            "key": "65kjyz",
+            "value": "官网H5"
+          },
+          {
+            "key": "ghlmok",
+            "value": "微信端"
+          }
+        ]
+      },
+      {
+        "key": "3",
+        "value": [
+          {
+            "key": "i85fwp",
+            "value": "系统默认"
+          },
+          {
+            "key": "ghlmok",
+            "value": "微信端"
+          }
+        ]
+      }
+    ],
+    "sellers": [
+      {
+        "sellerId": "1",
+        "sellerName": "张三",
+        "channels": [
+          {
+            "channelCode": "i85fwp",
+            "channelName": "系统默认1"
+          },
+          {
+            "channelCode": "nlt1xd",
+            "channelName": "官网PC1"
+          }
+        ]
+      },
+      {
+        "sellerId": "2",
+        "sellerName": "李四",
+        "channels": [
+          {
+            "channelCode": "65kjyz",
+            "channelName": "官网H5"
+          },
+          {
+            "channelCode": "ghlmok",
+            "channelName": "微信端"
+          }
+        ]
+      },
+      {
+        "sellerId": "3",
+        "sellerName": "王五",
+        "channels": [
+          {
+            "channelCode": "i85fwp",
+            "channelName": "系统默认"
+          },
+          {
+            "channelCode": "ghlmok",
+            "channelName": "微信端"
+          }
+        ]
+      }
+    ]
+  }
+}

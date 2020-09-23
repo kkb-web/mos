@@ -1,0 +1,11 @@
+{
+  "code": 0,
+  "msg": "success",
+  "data": {
+    "id": 10,
+    "name": "百万年薪架构师",
+    "code": "java",
+    "createTime": 1539325385,
+    "createBy": 25
+  }
+}

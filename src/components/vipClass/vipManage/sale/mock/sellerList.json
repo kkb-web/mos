@@ -1,0 +1,52 @@
+{
+  "code": 0,
+  "msg": "success",
+  "data": {
+    "offset": 0,
+    "limit": 2147483647,
+    "total": 8,
+    "size": 5,
+    "pages": 2,
+    "current": 1,
+    "searchCount": true,
+    "openSort": true,
+    "orderByField": "createTime",
+    "records": [
+      {
+        "number": 1,
+        "sellerId": 1,
+        "sellerName": "小明",
+        "price": 5980
+      },
+      {
+        "number": 2,
+        "sellerId": 2,
+        "sellerName": "小红",
+        "price": 7880
+      },
+      {
+        "number": 3,
+        "sellerId": 3,
+        "sellerName": "小张",
+        "price": 9580
+      },
+      {
+        "number": 4,
+        "sellerId": 4,
+        "sellerName": "小黑",
+        "price": 7890
+      },
+      {
+        "number": 5,
+        "sellerId": 5,
+        "sellerName": "小白",
+        "price": 7980
+      }
+    ],
+    "price": 391740,
+    "condition": {},
+    "customCondition": {},
+    "offsetCurrent": 0,
+    "asc": false
+  }
+}

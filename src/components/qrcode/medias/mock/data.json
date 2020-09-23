@@ -1,0 +1,182 @@
+{
+  "code": 0,
+  "msg": "success",
+  "data": [
+    {
+      "salesId": 1,
+      "salesName": "管理员",
+      "subjects": []
+    },
+    {
+      "salesId": 2,
+      "salesName": "开课吧",
+      "subjects": []
+    },
+    {
+      "salesId": 221,
+      "salesName": "冯杰",
+      "subjects": []
+    },
+    {
+      "salesId": 222,
+      "salesName": "郑凌冰",
+      "subjects": []
+    },
+    {
+      "salesId": 223,
+      "salesName": "岳文佩",
+      "subjects": [
+        {
+          "sellerId": 247,
+          "subjectNum": "java-2"
+        },
+        {
+          "sellerId": 248,
+          "subjectNum": "java-3"
+        }
+      ]
+    },
+    {
+      "salesId": 224,
+      "salesName": "马真强",
+      "subjects": [
+        {
+          "sellerId": 245,
+          "subjectNum": "web5-8"
+        }
+      ]
+    },
+    {
+      "salesId": 226,
+      "salesName": "冯杰1",
+      "subjects": [
+        {
+          "sellerId": 242,
+          "subjectNum": "web5-3"
+        },
+        {
+          "sellerId": 251,
+          "subjectNum": "web5-55"
+        }
+      ]
+    },
+    {
+      "salesId": 227,
+      "salesName": "冯杰",
+      "subjects": [
+        {
+          "sellerId": 241,
+          "subjectNum": "web5-2"
+        }
+      ]
+    },
+    {
+      "salesId": 228,
+      "salesName": "冯杰测试首次登陆",
+      "subjects": [
+        {
+          "sellerId": 243,
+          "subjectNum": "web5-4"
+        },
+        {
+          "sellerId": 244,
+          "subjectNum": "java-1"
+        }
+      ]
+    },
+    {
+      "salesId": 229,
+      "salesName": "测试首次登陆",
+      "subjects": []
+    },
+    {
+      "salesId": 230,
+      "salesName": "齐炳旭",
+      "subjects": []
+    },
+    {
+      "salesId": 231,
+      "salesName": "江海燕",
+      "subjects": []
+    },
+    {
+      "salesId": 232,
+      "salesName": "江海燕",
+      "subjects": []
+    },
+    {
+      "salesId": 233,
+      "salesName": "Angel",
+      "subjects": []
+    },
+    {
+      "salesId": 234,
+      "salesName": "Claire",
+      "subjects": []
+    },
+    {
+      "salesId": 235,
+      "salesName": "web销售A",
+      "subjects": []
+    },
+    {
+      "salesId": 236,
+      "salesName": "成旭",
+      "subjects": []
+    },
+    {
+      "salesId": 237,
+      "salesName": "澄江",
+      "subjects": []
+    },
+    {
+      "salesId": 238,
+      "salesName": "周科",
+      "subjects": [
+        {
+          "sellerId": 246,
+          "subjectNum": "web5-5"
+        }
+      ]
+    },
+    {
+      "salesId": 245,
+      "salesName": "aaa",
+      "subjects": []
+    },
+    {
+      "salesId": 246,
+      "salesName": "makting",
+      "subjects": []
+    },
+    {
+      "salesId": 251,
+      "salesName": "齐炳旭",
+      "subjects": [
+        {
+          "sellerId": 240,
+          "subjectNum": "web5-1"
+        },
+        {
+          "sellerId": 250,
+          "subjectNum": "web5-4544"
+        }
+      ]
+    },
+    {
+      "salesId": 252,
+      "salesName": "赵丽娜",
+      "subjects": []
+    },
+    {
+      "salesId": 253,
+      "salesName": "江忠林",
+      "subjects": []
+    },
+    {
+      "salesId": 254,
+      "salesName": "史伟",
+      "subjects": []
+    }
+  ]
+}
